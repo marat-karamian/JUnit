@@ -1,12 +1,11 @@
-package test;
-
 import com.demo.Calc;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
-public class CalcTest2 {
+public class CalcTest {
     Calc c = new Calc();
 
     @Test
